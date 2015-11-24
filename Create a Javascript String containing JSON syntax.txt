@@ -1,0 +1,17 @@
+
+//Create a JavaScript string containing JSON syntax:
+
+
+
+
+var txt = '{ "employees" : [' +
+'{ "firstName":"John" , "lastName":"Doe" },' +
+'{ "firstName":"Anna" , "lastName":"Smith" },' +
+'{ "firstName":"Peter" , "lastName":"Jones" } ]}';
+
+
+
+
+Note:
+Since JSON syntax is a subset of JavaScript syntax,
+ the JavaScript function eval() can be used to convert a JSON text into a JavaScript object.
